@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Formularios</title>
+</head>
+
+<body>
+<h3>Formulario Avanzado</h3>
+
+<form action="#" method="get">
+	<p>
+	Cantidad: <input type="number" name="cantidad" min="1" max="10" step="1">
+	</p>
+
+	<p>
+	Fecha: <input type="date" name="fecha">
+	</p>
+
+	<p>
+	Hora: <input type="time" name="hora">
+	</p>
+	
+	<p>
+	Fecha y hora: <input type="datetime-local" name="hora">
+	</p>
+
+	<p>
+	Color: <input type="color" name="color">
+	</p>
+	
+	<p>
+	e-mail: <input type="email" name="correo">
+	</p>
+
+	<p>
+	Calificación [0-10]: <input type="range" name="calif" min="0" max="10" step="1">
+	</p>
+
+	<p>
+	Archivo: <input type="file" name="archivo" value="image/*">
+	</p>
+
+	<p>
+	Imagen: <input type="image" name="imagen" src="d:/practicas/imagen1.jpg">
+	</p>
+	
+	<p>
+	Acepto las condiciones: <input type="checkbox" name="condiciones"> <!-- activado checked -->
+	</p>
+	
+	<p>
+	Sexo: Hombre<input type="radio" name="sexo" value="h">
+	</p>
+
+	<p>
+	Mujer <input type="radio" name="sexo" value="m">
+	</p>
+
+	<p>
+	Motivos: <br>
+	<textarea name="texto" rows="3" cols="30"></textarea>
+	</p>
+
+	<p>
+	Pais de nacimiento:
+	<select name="menu" size="1">
+		<option value="0">Elija un país</option>
+			<optgroup label="América">
+				<option value="1">México</option>
+				<option value="2">Colombia</option>
+				<option value="3">Perú</option>
+			</optgroup>
+
+			<optgroup label="Europa">
+				<option value="4">España</option>
+				<option value="5">Francia</option>
+				<option value="6">Italia</option>
+			</optgroup>
+
+	</select>
+	</p>
+
+	<p>
+	<input type="reset" value="Borrar">
+	</p>
+
+	<p>
+	<button type="button" onclick="alert('Mensaje de prueba')">
+	<img src="d:/practicas/buscar.jpg" width="15">Buscar
+	</button>
+	</p>
+
+	<p>
+	<input type="submit" value="Enviar">
+	</p>
+
+</form>
+
+</body>
+
+</html>
